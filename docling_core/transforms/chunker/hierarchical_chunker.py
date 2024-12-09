@@ -32,7 +32,7 @@ from docling_core.types.doc.labels import DocItemLabel
 _VERSION: Final = "1.0.0"
 
 _KEY_SCHEMA_NAME = "schema_name"
-_KEY_VERSION = "version"
+_KEY_VERSION = "version-nghich"
 _KEY_DOC_ITEMS = "doc_items"
 _KEY_HEADINGS = "headings"
 _KEY_CAPTIONS = "captions"
@@ -236,3 +236,4 @@ class HierarchicalChunker(BaseChunker):
                     origin=dl_doc.origin,
                 ),
             )
+
